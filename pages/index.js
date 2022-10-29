@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import React, {useState, useEffect, useRef} from 'react'
 import {
     styled, Typography, Slider,
@@ -193,7 +192,7 @@ export default function Home() {
 							</li>
 							<li className="vertical_separator"></li>
 							<li>
-								<button className="profile_btn" type="button" onclick="profile()">
+								<button className="profile_btn" type="button">
 									<div className="usericon">
 										<svg viewBox="0 0 1024 1024" aria-labelledby="mh-usericon-title">
 											<title id="mh-usericon-title">Profil</title>
@@ -229,7 +228,7 @@ export default function Home() {
 								</svg>
 							</a>
 						</div> 
-						<div className="container-togg" onclick="toggler(this)">
+						<div className="container-togg">
 							<div className="bar1"></div>
 							<div className="bar2"></div>
 							<div className="bar3"></div>
