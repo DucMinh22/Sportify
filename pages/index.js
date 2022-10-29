@@ -26,7 +26,6 @@ export default function Home() {
 	const Div = styled('div')(({theme}) => ({
 		backgroundColor: 'black',
 		height:'100vh',
-		width:'100vw',
 		paddingTop: theme.spacing(6)
 	}))
 	
