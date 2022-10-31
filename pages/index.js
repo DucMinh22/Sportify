@@ -165,7 +165,7 @@ export default function Home() {
         	<div className="container">
 				<div className="header">
 					<span className="logo">
-						<a href="./index.html">
+						<div>
 							<svg
 								viewBox="0 0 63 20"
 								xmlns="http://www.w3.org/2000/svg"
@@ -177,18 +177,18 @@ export default function Home() {
 									></path>
 								</g>
 							</svg>
-						</a>
+						</div>
 					</span>
 					<nav className="navigation">
 						<ul>
 							<li>
-								<a className="navigation-link" href="./premium.html">Premium</a>
+								<div className="navigation-link">Premium</div>
 							</li>
 							<li>
-								<a className="navigation-link" href="./help.html">Destek</a>
+								<div className="navigation-link">Destek</div>
 							</li>
 							<li>
-								<a className="navigation-link" href="./download.html">İndir</a>
+								<div className="navigation-link">İndir</div>
 							</li>
 							<li className="vertical_separator"></li>
 							<li>
@@ -209,10 +209,10 @@ export default function Home() {
 								<div id="profileMenu" className="profileMenu">
 									<ul className="">
 										<li className="">
-											<a className="" href="./account.html">Hesap</a> 
+											<div className="">Hesap</div> 
 										</li>
 										<li className="svelte-11h1c9">
-											<a className="faded" href="./index.html">Oturumu kapat</a> 
+											<div className="faded">Oturumu kapat</div> 
 										</li>
 									</ul>
 								</div>
@@ -221,12 +221,12 @@ export default function Home() {
 					</nav>
 					<div className="profile_icon-mobile">
 						<div className="usericon">
-							<a href="">
+							<div >
 								<svg viewBox="0 0 1024 1024" aria-labelledby="mh-usericon-title">
 									<title id="mh-usericon-title">Profil</title>
 									<path d="M730.06 679.64q-45.377 53.444-101.84 83.443t-120 29.999q-64.032 0-120.75-30.503t-102.6-84.451q-40.335 13.109-77.645 29.747t-53.948 26.722l-17.142 10.084Q106.388 763.84 84.96 802.41t-21.428 73.107 25.461 59.242 60.754 24.705h716.95q35.293 0 60.754-24.705t25.461-59.242-21.428-72.603-51.679-57.225q-6.554-4.033-18.907-10.84t-51.427-24.453-79.409-30.755zm-221.84 25.72q-34.285 0-67.561-14.873t-60.754-40.335-51.175-60.502-40.083-75.124-25.461-84.451-9.075-87.728q0-64.032 19.915-116.22t54.452-85.964 80.67-51.931 99.072-18.151 99.072 18.151 80.67 51.931 54.452 85.964 19.915 116.22q0 65.04-20.167 130.58t-53.948 116.72-81.426 83.443-98.568 32.268z"></path>
 								</svg>
-							</a>
+							</div>
 						</div> 
 						<div className="container-togg">
 							<div className="bar1"></div>
@@ -238,26 +238,25 @@ export default function Home() {
 				<div id="mySidenav" className="sidenav">
 					<ul>
 						<li>
-							<a className="sidenav-link" href="./premium.html">Premium</a>
+							<div className="sidenav-link" >Premium</div>
 						</li>
 						<li>
-							<a className="sidenav-link" href="./help.html">Destek</a>
+							<div className="sidenav-link">Destek</div>
 						</li>
 						<li>
-							<a className="sidenav-link" href="./download.html">İndir</a>
+							<div className="sidenav-link">İndir</div>
 						</li>
 						<li className="h_separator"></li>
 						<li>
-							<a className="sidenav-link light" href="./account.html">Hesap</a>
+							<div className="sidenav-link light">Hesap</div>
 						</li>
 						<li>
-							<a className="sidenav-link light son" href="./index.html"
-								>Oturumu kapat</a
-							>
+							<div className="sidenav-link light son"
+								>Oturumu kapat</div>
 						</li>
 					</ul>
 					<span className="sidenav-logo">
-						<a href="./index.html">
+						<div>
 							<svg
 								viewBox="0 0 63 20"
 								xmlns="http://www.w3.org/2000/svg"
@@ -269,7 +268,7 @@ export default function Home() {
 									></path>
 								</g>
 							</svg>
-						</a>
+						</div>
 					</span>
 				</div>
 			</div>
@@ -292,14 +291,14 @@ export default function Home() {
                         </div>
                         <div className="box_details">
 							<div className="play-icon">
-								<a href="">
+								<div>
 									<svg id="album-play" viewBox="0 0 25.4 25.4">
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 									</svg>
-								</a>
+								</div>
 							</div>
 							<h2>Türkçe Rock</h2>
 						</div>
@@ -310,14 +309,14 @@ export default function Home() {
                         </div>
                         <div className="box_details">
 							<div className="play-icon">
-								<a href="">
+								<div>
 									<svg id="album-play" viewBox="0 0 25.4 25.4">
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 									</svg>
-								</a>
+								</div>
 							</div>
 							<h2>Your Top Songs 2020</h2>
 						</div>
@@ -328,14 +327,14 @@ export default function Home() {
                         </div>
                         <div className="box_details">
 							<div className="play-icon">
-								<a href="">
+								<div>
 									<svg id="album-play" viewBox="0 0 25.4 25.4">
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 									</svg>
-								</a>
+								</div>
 							</div>
 							<h2>Purple Turtle</h2>
 						</div>
@@ -346,14 +345,14 @@ export default function Home() {
                         </div>
                         <div className="box_details">
 							<div className="play-icon">
-								<a href="">
+								<div>
 									<svg id="album-play" viewBox="0 0 25.4 25.4">
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 									</svg>
-								</a>
+								</div>
 							</div>
 							<h2>Soft Rock</h2>
 						</div>
@@ -364,14 +363,14 @@ export default function Home() {
                         </div>
                         <div className="box_details">
 							<div className="play-icon">
-								<a href="">
+								<div>
 									<svg id="album-play" viewBox="0 0 25.4 25.4">
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 									</svg>
-								</a>
+								</div>
 							</div>
 							<h2>NKVT</h2>
 						</div>
@@ -382,14 +381,14 @@ export default function Home() {
                         </div>
                         <div className="box_details">
 							<div className="play-icon">
-								<a href="">
+								<div>
 									<svg id="album-play" viewBox="0 0 25.4 25.4">
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 										<path fill="#ffffff" d="M12.7,25.4A12.7,12.7,0,1,1,25.4,12.7,12.71,12.71,0,0,1,12.7,25.4Zm0-24A11.3,11.3,0,1,0,24,12.7,11.31,11.31,0,0,0,12.7,1.4Z"></path>
 										<path fill="#ffffff" d="M11,16.47,17,13a.34.34,0,0,0,0-.59L11,8.93a.34.34,0,0,0-.51.29v7A.34.34,0,0,0,11,16.47Z"></path>
 									</svg>
-								</a>
+								</div>
 							</div>
 							<h2>Objektif</h2>
 						</div>
@@ -398,12 +397,12 @@ export default function Home() {
             </div>
             <div className="container">
                 <div className="arrow-scroll-down slide-top">
-                    <a href="#last_listen">
+                    <div>
 						<svg id="arrow-scroll-down" viewBox="0 0 32 32">
 							<polygon fill="#ffffff" points="15.98 22.43 7.28 13.73 8.7 12.32 15.98 19.6 23.28 12.3 24.7 13.72 15.98 22.43"></polygon>
 							<path fill="#ffffff" d="M16,32A16,16,0,1,1,32,16,16,16,0,0,1,16,32ZM16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Z"></path>
 						</svg>
-					</a>
+					</div>
                 </div>
             </div>
         </div>
